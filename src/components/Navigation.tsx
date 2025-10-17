@@ -7,9 +7,10 @@ const Navigation = () => {
 
   const menuItems = [
     { label: "บริการ", href: "#services" },
-    { label: "ผลงาน", href: "#portfolio" },
-    { label: "กระบวนการ", href: "#process" },
     { label: "เกี่ยวกับเรา", href: "#about" },
+    { label: "กระบวนการ", href: "#process" },
+    { label: "สินค้า", href: "#products" },
+    { label: "ผลงาน", href: "#portfolio" },
     { label: "ติดต่อเรา", href: "#contact" },
   ];
 
