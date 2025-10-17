@@ -6,10 +6,9 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { label: "บริการ", href: "#services" },
     { label: "เกี่ยวกับเรา", href: "#about" },
+    { label: "บริการ", href: "#services" },
     { label: "กระบวนการ", href: "#process" },
-    { label: "สินค้า", href: "#products" },
     { label: "ผลงาน", href: "#portfolio" },
     { label: "ติดต่อเรา", href: "#contact" },
   ];
