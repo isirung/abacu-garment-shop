@@ -114,7 +114,7 @@
             min-height: 90vh;
             display: flex;
             align-items: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: url('/src/assets/hero-image.jpg') center/cover no-repeat;
             color: white;
             position: relative;
             overflow: hidden;
@@ -127,7 +127,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(0, 0, 0, 0.3);
+            background: rgba(0, 0, 0, 0.5);
         }
 
         .hero-content {
@@ -388,11 +388,14 @@
             aspect-ratio: 1;
             background: #e5e7eb;
             border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #6b7280;
+            overflow: hidden;
             transition: transform 0.3s;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .portfolio-item:hover {
@@ -749,14 +752,30 @@
             </div>
 
             <div class="portfolio-grid">
-                <div class="portfolio-item">Work sample 1</div>
-                <div class="portfolio-item">Work sample 2</div>
-                <div class="portfolio-item">Work sample 3</div>
-                <div class="portfolio-item">Work sample 4</div>
-                <div class="portfolio-item">Work sample 5</div>
-                <div class="portfolio-item">Work sample 6</div>
-                <div class="portfolio-item">Work sample 7</div>
-                <div class="portfolio-item">Work sample 8</div>
+                <div class="portfolio-item">
+                    <img src="/src/assets/reference-1.jpeg" alt="ตัวอย่างผลงาน 1">
+                </div>
+                <div class="portfolio-item">
+                    <img src="/src/assets/clothing-rack.jpg" alt="ตัวอย่างผลงาน 2">
+                </div>
+                <div class="portfolio-item">
+                    <img src="/src/assets/our-products.png" alt="ตัวอย่างผลงาน 3">
+                </div>
+                <div class="portfolio-item">
+                    <img src="/src/assets/factory-building.png" alt="ตัวอย่างผลงาน 4">
+                </div>
+                <div class="portfolio-item">
+                    <img src="/src/assets/process-flow.png" alt="ตัวอย่างผลงาน 5">
+                </div>
+                <div class="portfolio-item">
+                    <img src="/src/assets/vision-mission.png" alt="ตัวอย่างผลงาน 6">
+                </div>
+                <div class="portfolio-item">
+                    <img src="/src/assets/about-hero.png" alt="ตัวอย่างผลงาน 7">
+                </div>
+                <div class="portfolio-item">
+                    <img src="/src/assets/reference-1.jpeg" alt="ตัวอย่างผลงาน 8">
+                </div>
             </div>
         </div>
     </section>
